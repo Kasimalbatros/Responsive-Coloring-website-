@@ -1,0 +1,25 @@
+
+body{
+  background-color: green;
+} /*Check in inspect dimension just click and inspect*/
+
+@media (min-width: 319px) and (max-width: 480px) {    /*greater than or equal to 600px then apply below condition */
+  body{
+    background-color: aqua;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {    /*greater than or equal to 600px then apply below condition */
+  body{
+    background-color:orange;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {    /*greater than or equal to 600px then apply below condition */
+  body{
+    background-color: red;
+  }
+}
+@media (min-width: 1600px) {    /*greater than or equal to 600px then apply below condition */
+  body{
+    background-color: black;
+  }
+}

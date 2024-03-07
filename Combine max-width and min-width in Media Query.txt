@@ -1,0 +1,7 @@
+/*Combine max-width and min-width in media query*/
+
+@media (min-width:600px) and (max-width:900px){
+
+/*styles for screens between 600px and 900px */
+
+}

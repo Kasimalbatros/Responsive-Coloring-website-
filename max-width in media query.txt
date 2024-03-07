@@ -1,0 +1,9 @@
+h1{
+  color: lightgreen;
+}
+
+@media (max-width: 600px) {    /*Less than or equal to 600px then apply below condition */
+  h1{
+    color: lightblue;
+  }
+}
